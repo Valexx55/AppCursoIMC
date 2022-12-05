@@ -73,5 +73,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void limpiarFormulario(View view) {
+
+        this.etNombre.setText("");
+        this.npEstatura.setValue(160);//y visible por defecto
+        this.npPeso.setValue(80);
     }
 }
